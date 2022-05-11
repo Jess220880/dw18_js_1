@@ -1,0 +1,88 @@
+/* 1b9b4d */
+body{
+    margin-top: 0;
+}
+
+header{
+    display: flex;
+    /*justify-content: flex-start;
+    justify-content: space-around;  
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-evenly;*/
+    justify-content: space-between;
+    align-items: center;
+    /*align-items: flex-end;
+    align-items: flex-start;*/
+    background-color: lightgrey;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    height: 3.5rem;
+}
+
+header p{
+    font-size: 2rem;
+}
+
+/*header img{
+    height: 2rem;
+}*/
+
+header a
+header a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: red;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    /*margin: ;*/
+}
+
+header li{
+margin-left: 0.5rem;
+}
+
+section div{
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 22%;
+    background-color: lightgrey;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+figure{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+   /* min-width: 150px;
+    max-width: 250px;
+    max-height: 250px;*/
+    margin: 2rem; /*haut droite bas gauche ou 4 pareils*/
+    margin-top: 0.5rem;
+    /*margin-bottom: ;
+    margin-right: ;
+    margin-left: ; */
+    padding: 1rem 0; /* 2 valeurs: haut bas et gauche droite*/
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}

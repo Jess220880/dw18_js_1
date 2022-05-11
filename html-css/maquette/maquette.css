@@ -1,0 +1,35 @@
+body{
+    font-family: Raleway Regular;
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    style de police : normal ;
+    poids de la police : 400 ;
+    src : local('Raleway Regular'), local('Raleway-Regular'),
+        URL(http://allfont.ru/cache/fonts/raleway-regular_180999bdf4e0628710f03129fd5467e7.woff) format('woff'),
+        URL(http://allfont.ru/cache/fonts/raleway-regular_180999bdf4e0628710f03129fd5467e7.ttf) format('truetype');
+}
+
+header, footer{
+    background-color: #d1d1d1;
+}
+
+main{
+    background-color: #e3e3e3;
+}
+
+nav{  
+    color: black;
+}
+
+article{
+    border: 1px transparent black;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    box-shadow: 5px 3px 5px grey;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+}

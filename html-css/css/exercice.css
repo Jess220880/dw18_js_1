@@ -1,0 +1,74 @@
+h1{
+    color: blue;
+    text-shadow: 5px 3px 5px grey;
+    text-align: center;
+    font-size:xx-large;
+}
+
+a:visited{
+    color: red;
+}
+
+a:focus{
+    border: 2px solid black;
+}
+
+a{
+    color: green;
+}
+
+figure{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 3px 15px grey;
+    overflow: hidden;
+}
+
+figcaption{
+    text-align: center;
+}
+
+body{
+    background-image: url(../images/paper-texture-overlay-1-640x427.jpg);
+    background-repeat: repeat; 
+}
+
+p:hover{
+    color: aquamarine;
+}
+
+figcaption:hover{
+    background-color: brown;
+    color: aquamarine;
+    border-radius: 0 0 2.5rem 2.5rem;
+}
+
+ol{
+    border: 1px solid black;
+    border-radius: 200rem;
+}
+
+li:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+ol:active{
+    background-color: antiquewhite;
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+article{
+    background-color: #edf2f4;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+}
+
+section{
+    border: 1px solid red;
+}
+

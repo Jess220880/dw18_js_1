@@ -1,0 +1,65 @@
+header {
+    /* 1. mettre le menu et le nom du site en ligne. */
+    display: flex;
+    /* 2. Mettre le fond en lightgrey */
+    background-color: lightgrey;
+}
+
+header p {
+    /* 3. Mettre le nom en taille 2rem */
+    font-size: 2rem;
+}
+
+nav ul {
+    /* 4. mettre les options du menu en ligne */
+    display: flex;
+    /* 6. Retirer les puces */
+    list-style-type: none;
+}
+
+nav a,
+nav a:visited {
+    /* 5. Mettre la couleur des liens en noir (même les liens visités) et en taille 1.2rem  et enlever le soulignement des liens */
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    /* 7. mettre une marge entre les liens */
+    margin-left: 1.2rem;
+}
+
+article {
+    /* 8. réduire la taille des articles en mettant une largeur de 20% */
+    width: 20%;
+    /* 10. mettre un padding de 0.8rem sur les articles */
+    padding: 0.8rem;
+    /* 11. ajouter la couleur lightgrey aux articles */
+    background-color: lightgrey;
+}
+
+article img {
+    /* 9. mettre la largeur des images à 100% */
+    width: 100%;
+}
+
+h1{
+    color: red;
+}
+
+article figure{
+    margin: 0;
+}
+
+section>div{
+    display: flex;
+    justify-content: space-between;
+}
+/*
+header>div>p>:last-child{
+    font-size: 0.75rem ; 
+}
+*/
+
+
+.slogan{
+    font-size: 0.75rem;
+}
